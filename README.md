@@ -1,24 +1,47 @@
-# README
+# テーブル設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Usersテーブル
+| Columu     | Type       | Options     |
+|- - - - - - | - - - - - -|- - - - - - -|
+| nickname   | string     | null: false |
+| email      | string     | null: false |
+| password   | string     | null: false |
+| birthday   | date       | null: false |
 
-Things you may want to cover:
+### Association
+has_many :events
+has_many :groups, through: group_users
+has_many :group_users
 
-* Ruby version
+## Eventsテーブル
+| Columu    | Type       | Options                        |
+|- - - - - -|- - - - - - | - - - - - - - - - - - - - - - -|
+| title     | string     | null: false                    |
+| content   | string     | null: false                    |
+| start     | datetime   | null: false                    |
+| end       | datetime   | null: false                    |
+| user_id   | integer    | null: false ,foregin_key: true |
 
-* System dependencies
+### Association
+belongs_to :user
+belomgs_to :group
 
-* Configuration
+## Groupsテーブル
+| Columu     | Type     | Options        |
+|- - - - - - | - - - - -|- - - - - - - - |
+| name       | string   | null: false    |
 
-* Database creation
+### Association
+has_many :users, through: group_users
+has_many :group_users
+has_many :events
 
-* Database initialization
+## group_usersテーブル
+| Columu     | Type     | Options                        |
+|- - - - - - | - - - - -|- - - - - - - - - - - - - - - - |
+| user_id    | integer  | null: false, foregin_key: true |
+| event_id   | integer  | null: false, foregin_key: true |
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Association
+belongs_to :user
+belongs_to :group
