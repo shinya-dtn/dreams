@@ -1,0 +1,46 @@
+.calender-logo {
+  width: 25vw;
+  height: 15vh;
+  opacity: 0.8;
+}
+
+.nuv {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lists-left {
+  list-style: none;
+  text-decoration: none;
+}
+
+.group-list {
+  text-decoration: none;
+  border: double;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+.lists-right {
+  display: flex;
+  list-style: none;
+}
+
+.login {
+  text-decoration: none;
+  border: double;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}
+
+.sign-up {
+  margin-left: 20px;
+  text-decoration: none;
+  border: double;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+}

@@ -1,0 +1,29 @@
+.top-page {
+  background-image: url('calender.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.top-page-content {
+  text-align: center;
+}
+
+.top-page-title {
+  font-size: 80px;
+}
+
+p {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+.calender-btn {
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 25px;
+  background-color: cadetblue;
+  color:white;
+  padding: 5px;
+}
