@@ -1,13 +1,16 @@
 .calender-logo {
   width: 25vw;
   height: 15vh;
-  opacity: 0.8;
+  opacity: 2;
+  margin-top: 8px;
 }
 
 .nuv {
-  margin-top: 5px;
+  margin-top: 8px;
   display: flex;
   justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .lists-left {

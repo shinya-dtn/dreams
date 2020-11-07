@@ -1,8 +1,8 @@
 .registration-wrap {
   background-image: url('registration-color.jpg');
   background-size: cover;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .registration-main {
@@ -12,10 +12,13 @@
 }
 
 .form-header-text {
-  padding-left: 100px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 .form-group {
+  margin-top: 20px;
   margin-bottom: 20px;
   padding-right: 100px;
 }
@@ -43,11 +46,6 @@
   padding: 10px;
 }
 
-.f-field {
-  width: 150px;
-  padding-top: 10px;
-}
-
 .select-birthday-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -56,12 +54,12 @@
 .select-birthday-wrap>select {
   margin-top: 5px;
   padding-left: 3px;
-  width: 60px;
+  width: 75px;
   height: 30px;
 }
 
 .select-birthday-wrap>p {
-  line-height: 4px;
+  margin-top: 5px;
   font-size: 23px;
 }
 
@@ -73,4 +71,14 @@
 .actions-btn {
   font-size: 18px;
   width: 8vw;
+  border-radius: 5px;
+  background-color: pink;
+  cursor: pointer;
+  border-bottom: solid 4px;
+}
+
+.actions-btn:active {
+  -webkit-transform: rotateY(4px);
+  transform: rotateY(4px);
+  border-bottom: none;
 }
