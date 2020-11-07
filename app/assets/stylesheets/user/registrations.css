@@ -1,0 +1,76 @@
+.registration-wrap {
+  background-image: url('registration-color.jpg');
+  background-size: cover;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.registration-main {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.form-header-text {
+  padding-left: 100px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding-right: 100px;
+}
+
+.form-text {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.indispensable {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-left: 8px;
+  border: solid;
+  padding: 2px;
+}
+
+.field {
+  margin-top: 5px;
+  width: 150%;
+  height: 50%;
+  padding: 10px;
+}
+
+.f-field {
+  width: 150px;
+  padding-top: 10px;
+}
+
+.select-birthday-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.select-birthday-wrap>select {
+  margin-top: 5px;
+  padding-left: 3px;
+  width: 60px;
+  height: 30px;
+}
+
+.select-birthday-wrap>p {
+  line-height: 4px;
+  font-size: 23px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.actions-btn {
+  font-size: 18px;
+  width: 8vw;
+}
