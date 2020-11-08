@@ -20,10 +20,10 @@
 
 .group-list {
   text-decoration: none;
-  border: double;
-  background-color: blue;
+  border: solid 1px white;
   color: white;
   padding: 5px;
+  margin-left: 10px;
 }
 
 .lists-right {
@@ -31,19 +31,35 @@
   list-style: none;
 }
 
+.user-nickname {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.logout {
+  border: 1px solid white;
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+  margin-right: 10px;
+  padding: 5px;
+}
+
 .login {
   text-decoration: none;
-  border: double;
-  background-color: blue;
+  border: 1px solid white;
   color: white;
   padding: 5px;
 }
 
 .sign-up {
+  margin-right: 10px;
   margin-left: 20px;
   text-decoration: none;
-  border: double;
-  background-color: blue;
+  border: solid 1px white;
   color: white;
   padding: 5px;
 }
