@@ -1,0 +1,35 @@
+.top-page {
+  background-image: url("calender.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.top-page-content {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.top-page-title {
+  font-size: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+
+.actions {
+  margin-top: 40px;
+}
+
+.calender-btn {
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 25px;
+  background-color: cadetblue;
+  color:white;
+  padding: 10px;
+}

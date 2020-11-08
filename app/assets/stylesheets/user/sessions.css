@@ -1,0 +1,30 @@
+.registration-main {
+  margin-top: 55px;
+}
+
+.session-wrap {
+  background-image: url('registration-color.jpg');
+  background-size: cover;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100vh;
+}
+
+.login-btn {
+  font-size: 18px;
+  width: 8vw;
+  border-radius: 5px;
+  background-color: pink;
+  cursor: pointer;
+  border-bottom: solid 4px;
+}
+
+.login-btn:active {
+  -webkit-transform: rotateY(4px);
+  transform: rotateY(4px);
+  border-bottom: none;
+}
+
+.second-footer {
+  margin-top: 35px;
+}

@@ -1,0 +1,64 @@
+.calender-logo {
+  width: 25vw;
+  height: 15vh;
+  opacity: 2;
+  margin-top: 8px;
+}
+
+.nuv {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.lists-left {
+  list-style: none;
+  text-decoration: none;
+}
+
+.group-list {
+  text-decoration: none;
+  border: solid 1px white;
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.lists-right {
+  display: flex;
+  list-style: none;
+}
+
+.user-nickname {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-weight:bold;
+}
+
+.logout {
+  border: 1px solid white;
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.login {
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+}
+
+.sign-up {
+  margin-right: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  border: solid 1px white;
+  color: white;
+  padding: 5px;
+}
